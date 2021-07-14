@@ -24,3 +24,5 @@ yarn-error.log*
 
 # config 
 /src/api/config.js
+
+.vercel
