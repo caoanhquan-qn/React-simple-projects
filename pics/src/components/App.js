@@ -17,6 +17,9 @@ class App extends React.Component {
       })
       .catch((err) => console.log(err));
   };
+  componentDidMount() {
+    this.onSearchSubmit("welcome");
+  }
   render() {
     return (
       <div className="ui container" style={{ marginTop: "10px" }}>
